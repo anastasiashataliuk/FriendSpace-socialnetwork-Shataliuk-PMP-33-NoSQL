@@ -1,0 +1,45 @@
+﻿@page "/friends"
+@using DAL1.Concreate
+@using DTO
+@using MongoDB.Bson
+@inject UserDAL UsersDAL
+
+<h3>Manage Friends</h3>
+
+<input @bind="searchTerm" placeholder="Search for users..." class="form-control" />
+<button @onclick="SearchUsers">Search</button>
+
+<ul>
+    @foreach (var user in searchResults)
+    {
+        <li>
+            @user.Username
+            <button @onclick="() => AddFriend(user.Id)">Add Friend</button>
+        </li>
+    }
+</ul>
+
+@code {
+    private string userId; // Ensure this is set to the current user's ID after login
+    private string searchTerm;
+    private List<Users> searchResults = new();
+
+    private void SearchUsers()
+    {
+        searchResults = UsersDAL.SearchUsersByUsername(searchTerm);
+    }
+
+    private void AddFriend(ObjectId friendId)
+    {
+        // Ensure currentUserId is properly initialized
+        if (!string.IsNullOrEmpty(userId))
+        {
+            UsersDAL.AddFriend(new ObjectId(userId), friendId);
+        }
+        else
+        {
+            // Handle the case when currentUserId is not set
+        }
+    }
+}
+

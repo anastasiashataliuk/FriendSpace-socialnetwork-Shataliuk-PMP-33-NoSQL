@@ -1,0 +1,36 @@
+﻿@page "/create-post"
+@using DAL1.Concreate
+@using DTO
+@inject PostsDAL PostsDAL
+@using MongoDB.Bson;
+
+<h3>Create a New Post</h3>
+
+<input @bind="newPostContent" placeholder="Write your post..." />
+<button @onclick="AddPost">Post</button>
+
+@code {
+    private string newPostContent;
+    private ObjectId userId; // Ensure this is defined
+
+    private async Task AddPost()
+    {
+        if (string.IsNullOrWhiteSpace(newPostContent))
+        {
+            return; // Do not add empty posts
+        }
+
+        var newPost = new Posts
+            {
+                UserId = userId.ToString(), // Assuming UserId is stored as a string in Posts
+                Content = newPostContent,
+                CreatedAt = DateTime.Now
+            };
+
+        // Call the method to add the post to the database
+        PostsDAL.AddPost(newPost);
+
+        // Clear the input after posting
+        newPostContent = string.Empty;
+    }
+}

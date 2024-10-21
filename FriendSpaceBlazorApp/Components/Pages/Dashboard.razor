@@ -1,0 +1,37 @@
+﻿@page "/dashboard"
+@inject PostsDAL PostsDAL
+@using DAL1.Concreate
+@using DTO
+@using MongoDB.Bson
+@using MongoDB.Driver;
+
+
+<h3>Latest Posts</h3>
+
+<ul>
+    @foreach (var post in posts)
+    {
+        <li>
+            <strong>@post.UserId</strong> - @post.Content
+            <div>@post.CreatedAt.ToString("f")</div>
+            <button @onclick="() => LikePost(post.Id)">Like</button>
+        </li>
+    }
+</ul>
+
+@code {
+    private List<Posts> posts = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        posts = PostsDAL.GetAllPosts();
+    }
+
+    private void LikePost(ObjectId postId)
+    {
+        // Implement like logic
+        PostsDAL.AddLike(postId);
+        // Refresh the posts list
+        posts = PostsDAL.GetAllPosts();
+    }
+}

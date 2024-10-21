@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nastya\\source\\repos\\FriendSpaceBlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FriendSpaceBlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FriendSpaceBlazorApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Nastya\\source\\repos\\FriendSpaceBlazorApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Nastya\\source\\repos\\FriendSpaceBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nastya\\source\\repos\\FriendSpaceBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nastya\\source\\repos\\FriendSpaceBlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FriendSpaceBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FriendSpaceBlazorApp.props",
+      "PackagePath": "build\\FriendSpaceBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FriendSpaceBlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\FriendSpaceBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FriendSpaceBlazorApp.props",
+      "PackagePath": "buildTransitive\\FriendSpaceBlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
