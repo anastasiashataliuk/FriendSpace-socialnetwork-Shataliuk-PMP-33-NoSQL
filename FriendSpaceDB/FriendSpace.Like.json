@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d37"
+  },
+  "PostId": "post1_id",
+  "UserId": "alex.smith@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-16T10:30:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d38"
+  },
+  "PostId": "post2_id",
+  "UserId": "maria.johnson@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-17T13:30:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d39"
+  },
+  "PostId": "post3_id",
+  "UserId": "jane.doe@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-16T11:45:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d3a"
+  },
+  "PostId": "post4_id",
+  "UserId": "chris.lee@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-18T16:00:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d3b"
+  },
+  "PostId": "post5_id",
+  "UserId": "linda.brown@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-16T09:00:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d3c"
+  },
+  "CommentId": "comment1_id",
+  "UserId": "david.wilson@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-17T12:00:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d3d"
+  },
+  "CommentId": "comment2_id",
+  "UserId": "emma.williams@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-15T14:30:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d3e"
+  },
+  "PostId": "post6_id",
+  "UserId": "michael.jones@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-18T18:45:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d3f"
+  },
+  "PostId": "post7_id",
+  "UserId": "sarah.martin@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-16T10:10:00"
+},
+{
+  "_id": {
+    "$oid": "6713b42e883e485706a94d40"
+  },
+  "PostId": "post8_id",
+  "UserId": "alex.smith@example.com",
+  "Type": "Like",
+  "CreatedAt": "2024-10-18T19:30:00"
+}]

@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d2c"
+  },
+  "PostId": "post1_id",
+  "UserId": "alex.smith@example.com",
+  "Content": "Sounds like a great book! I'll check it out.",
+  "CreatedAt": "2024-10-16T10:00:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d2d"
+  },
+  "PostId": "post2_id",
+  "UserId": "maria.johnson@example.com",
+  "Content": "I love traveling too! How about visiting Italy?",
+  "CreatedAt": "2024-10-17T13:15:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d2e"
+  },
+  "PostId": "post3_id",
+  "UserId": "jane.doe@example.com",
+  "Content": "That pizza looks delicious! What recipe did you use?",
+  "CreatedAt": "2024-10-16T11:30:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d2f"
+  },
+  "PostId": "post4_id",
+  "UserId": "chris.lee@example.com",
+  "Content": "Basketball is the best! We should play sometime.",
+  "CreatedAt": "2024-10-18T15:45:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d30"
+  },
+  "PostId": "post5_id",
+  "UserId": "linda.brown@example.com",
+  "Content": "Yoga is so relaxing! What routine do you follow?",
+  "CreatedAt": "2024-10-16T08:20:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d31"
+  },
+  "PostId": "post6_id",
+  "UserId": "david.wilson@example.com",
+  "Content": "That playlist sounds awesome! Any recommendations?",
+  "CreatedAt": "2024-10-17T11:30:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d32"
+  },
+  "PostId": "post7_id",
+  "UserId": "emma.williams@example.com",
+  "Content": "Space documentaries are so inspiring!",
+  "CreatedAt": "2024-10-15T14:10:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d33"
+  },
+  "PostId": "post8_id",
+  "UserId": "michael.jones@example.com",
+  "Content": "Congrats on finishing the game! What's next?",
+  "CreatedAt": "2024-10-18T18:30:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d34"
+  },
+  "PostId": "post9_id",
+  "UserId": "sarah.martin@example.com",
+  "Content": "Nature walks are the best! Where did you go?",
+  "CreatedAt": "2024-10-16T09:50:00"
+},
+{
+  "_id": {
+    "$oid": "6713b3d9883e485706a94d35"
+  },
+  "PostId": "post10_id",
+  "UserId": "alex.smith@example.com",
+  "Content": "Congrats on adopting a pet! What did you name it?",
+  "CreatedAt": "2024-10-18T19:10:00"
+}]

@@ -1,0 +1,191 @@
+[{
+  "_id": {
+    "$oid": "670d121f98854e947b0af3f3"
+  },
+  "Email": "user@example.com",
+  "Password": "hashedPassword",
+  "FirstName": "John",
+  "LastName": "Doe",
+  "Username": "johnny",
+  "Gender": "Male",
+  "Interests": [
+    "music",
+    "coding",
+    "gaming"
+  ],
+  "Friends": [
+    "jane.doe@example.com"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d04"
+  },
+  "Email": "jane.doe@example.com",
+  "Password": "hashedPassword1",
+  "FirstName": "Jane",
+  "LastName": "Doe",
+  "Username": "janed",
+  "Gender": "Female",
+  "Interests": [
+    "reading",
+    "traveling",
+    "photography"
+  ],
+  "Friends": []
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d05"
+  },
+  "Email": "alex.smith@example.com",
+  "Password": "hashedPassword2",
+  "FirstName": "Alex",
+  "LastName": "Smith",
+  "Username": "alexs",
+  "Gender": "Male",
+  "Interests": [
+    "sports",
+    "cooking",
+    "fitness"
+  ],
+  "Friends": [
+    {
+      "$oid": "6713b0e4883e485706a94d04"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d06"
+  },
+  "Email": "maria.johnson@example.com",
+  "Password": "hashedPassword3",
+  "FirstName": "Maria",
+  "LastName": "Johnson",
+  "Username": "mariaj",
+  "Gender": "Female",
+  "Interests": [
+    "yoga",
+    "music",
+    "fashion"
+  ],
+  "Friends": []
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d07"
+  },
+  "Email": "david.wilson@example.com",
+  "Password": "hashedPassword4",
+  "FirstName": "David",
+  "LastName": "Wilson",
+  "Username": "davidw",
+  "Gender": "Male",
+  "Interests": [
+    "technology",
+    "video games",
+    "space"
+  ],
+  "Friends": []
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d08"
+  },
+  "Email": "linda.brown@example.com",
+  "Password": "hashedPassword5",
+  "FirstName": "Linda",
+  "LastName": "Brown",
+  "Username": "lindab",
+  "Gender": "Female",
+  "Interests": [
+    "hiking",
+    "nature",
+    "animals"
+  ],
+  "Friends": []
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d09"
+  },
+  "Email": "michael.jones@example.com",
+  "Password": "hashedPassword6",
+  "FirstName": "Michael",
+  "LastName": "Jones",
+  "Username": "mikej",
+  "Gender": "Male",
+  "Interests": [
+    "movies",
+    "art",
+    "design"
+  ],
+  "Friends": []
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d0a"
+  },
+  "Email": "sarah.martin@example.com",
+  "Password": "hashedPassword7",
+  "FirstName": "Sarah",
+  "LastName": "Martin",
+  "Username": "sarahm",
+  "Gender": "Female",
+  "Interests": [
+    "writing",
+    "history",
+    "gardening"
+  ],
+  "Friends": []
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d0b"
+  },
+  "Email": "chris.lee@example.com",
+  "Password": "hashedPassword8",
+  "FirstName": "Chris",
+  "LastName": "Lee",
+  "Username": "chrisl",
+  "Gender": "Male",
+  "Interests": [
+    "cycling",
+    "traveling",
+    "languages"
+  ],
+  "Friends": []
+},
+{
+  "_id": {
+    "$oid": "6713b0e4883e485706a94d0c"
+  },
+  "Email": "emma.williams@example.com",
+  "Password": "hashedPassword9",
+  "FirstName": "Emma",
+  "LastName": "Williams",
+  "Username": "emmaw",
+  "Gender": "Female",
+  "Interests": [
+    "cooking",
+    "fitness",
+    "painting"
+  ],
+  "Friends": []
+},
+{
+  "_id": "6713ce31180dcf70bdd99f59",
+  "Email": "nastok@gmail.com",
+  "Password": "naastok",
+  "FirstName": "Nastya",
+  "LastName": "Shataliuk",
+  "Username": "naastok",
+  "Gender": "Female",
+  "Interests": [
+    "reading",
+    " writing",
+    " paintings"
+  ],
+  "Friends": []
+}]
